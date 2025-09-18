@@ -91,6 +91,7 @@ st.markdown("""
 }
 .user-msg {
     background-color: #d1e7dd;
+    color: black;
     padding: 12px 15px;
     border-radius: 15px;
     max-width: 70%;
@@ -160,4 +161,5 @@ if prompt := st.chat_input("Type your question..."):
                     <div class="bot-msg">{formatted_response}</div>
                 </div>
             ''', unsafe_allow_html=True)
+
 
